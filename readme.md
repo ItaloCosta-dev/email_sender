@@ -18,19 +18,7 @@ Este é um projeto em Python para automatizar o envio de e-mails com anexos. O o
 
 Além disso, você precisará de uma conta de e-mail Gmail e criar uma senha de aplicativo para permitir o envio de e-mails através do seu script Python. Para mais informações sobre como criar uma senha de aplicativo, consulte [Este link](https://support.google.com/accounts/answer/185833?hl=pt-BR).
 
-## Como Usar
-
-1. **Configuração do Ambiente**:
-   Crie um arquivo `.env` no diretório do projeto para armazenar suas variáveis de e-mail. Este arquivo não deve ser compartilhado publicamente, pois contém informações sensíveis.
-
-   Exemplo do conteúdo do arquivo `.env`:
-   ```env
-   EMAIL_REMETENTE=seuemail@gmail.com
-   SENHA=sua_senha_de_app
-   EMAIL_DESTINATARIO=destinatario@gmail.com
-   ```
-
-2. **Rodando o Script**:
+ **Rodando o Script**:
    No terminal, dentro do diretório do projeto, execute o script Python para enviar o e-mail com o anexo:
 
    ```bash
